@@ -22,6 +22,15 @@ let products = [
         price: 130.0,
         images:["https://madcanon.ru/wp-content/uploads/2022/06/burger.jpg"]
 
+    },
+
+    {
+        id: 4,
+        title: "Пельмени",
+        description:"food",
+        price: 250.0,
+        images:["https://wp-s.ru/wallpapers/5/1/510433476889124/pelmeni-s-perchikom-i-petrushkoj-na-beloj-tarelke.jpg"]
+
     }
 ];
 
