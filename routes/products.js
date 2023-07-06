@@ -23,15 +23,16 @@ let products = [
         images:["https://madcanon.ru/wp-content/uploads/2022/06/burger.jpg"]
 
     },
-
     {
         id: 4,
         title: "Пельмени",
         description:"food",
-        price: 250.0,
-        images:["https://wp-s.ru/wallpapers/5/1/510433476889124/pelmeni-s-perchikom-i-petrushkoj-na-beloj-tarelke.jpg"]
+        price: 249.99,
+        images:["https://attuale.ru/wp-content/uploads/2017/09/28136_5.jpg"]
 
     }
+
+    
 ];
 
 router.get("/products", (req, res)=>{
