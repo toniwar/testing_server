@@ -33,7 +33,7 @@ let products = [
     },
     {
         id: 5,
-        title: "Игрушка 'Сиреноголовый'",
+        title: "Игрушка \"Сиреноголовый\"",
         description:"Товары для детей",
         price: 450.00,
         images:["https://cdn1.ozone.ru/s3/multimedia-a/6083517490.jpg"]
