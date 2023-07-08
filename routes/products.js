@@ -44,7 +44,20 @@ let products = [
     
 ];
 
+
+
 router.get("/products", (req, res)=>{
     res.send(products);
 })
+
+router.get("/products/:productID", (req, res)=>{
+    const id = Number(req.params.productID);
+    const product = products.find(product => product.id === id)
+    if(!product){
+        return res.status(404).send('Product not found')
+    }
+    res.send(product)
+})
+
+
 module.exports = router
