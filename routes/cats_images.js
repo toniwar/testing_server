@@ -33,22 +33,62 @@ const images = [
 
     {
         id:7,
-        url:"https://krasivosti.pro/uploads/posts/2022-05/1653047141_23-krasivosti-pro-p-bolshie-koshki-dikie-krasivo-foto-31.jpg"
+        url:"https://zaebov.net/wp-content/uploads/2021/01/995/34.jpg"
     },
 
     {
         id:8,
-        url:"https://sun9-26.userapi.com/impg/8Q2nJS4OqSYfWUcM6zTg-Jn5VEfyOdUUbICyoA/GwTTVrnW2K4.jpg?size=1280x1280&quality=95&sign=83d09eb8aca199a8338afd61186f85a9&c_uniq_tag=8wAgsB3G90InA5wJhA04U_oX4f6NP1JNldlxXfygGWs&type=album"
+        url:"https://sport-dog.ru/wp-content/uploads/b/9/4/b94464b34f9547ea4edf2e29dab84a92.jpeg"
     },
 
     {
         id:9,
-        url:"https://s1.1zoom.ru/big3/126/Leopards_Big_cats_Glance_478609.jpg"
+        url:"https://pic.rutubelist.ru/video/ce/dd/cedd6d2ea054513ed268cdf693228a43.jpg"
     },
 
     {
         id:10,
-        url:"https://img2.goodfon.ru/wallpaper/nbig/9/58/tigr-amurskiy-koshka-morda-7705.jpg"
+        url:"https://krot.info/uploads/posts/2022-03/1646873271_36-krot-info-p-zabavnie-koti-i-koshki-smeshnie-foto-38.jpg"
+    },
+
+    {
+        id:11,
+        url:"https://pic.rutubelist.ru/video/4b/3d/4b3dfea19edcbdc2fa9093eebef7847f.jpg"
+    },
+
+    {
+        id:12,
+        url:"https://otkritkis.com/wp-content/uploads/2022/02/2681344070.jpg"
+    },
+
+    {
+        id:13,
+        url:"https://i.yapx.cc/QPdAf.jpg"
+    },
+
+    {
+        id:14,
+        url:"https://zaebov.net/wp-content/uploads/2021/01/995/24.jpg"
+    },
+
+    {
+        id:15,
+        url:"https://zaebov.net/wp-content/uploads/2021/01/995/22.jpg"
+    },
+
+    {
+        id:16,
+        url:"https://gamerwall.pro/uploads/posts/2022-09/1662463393_25-gamerwall-pro-p-ochen-smeshnoi-kot-krasivo-33.jpg"
+    },
+
+    {
+        id:17,
+        url:"https://avatars.dzeninfra.ru/get-zen_doc/1584893/pub_5d1e7be5edee3600ad201b4b_5d1e7c99d6b87700ae7ca913/scale_1200"
+    },
+    
+    {
+        id:18,
+        url:"https://fanibani.ru/wp-content/uploads/2021/07/top3000d.jpg"
     }
 
 
