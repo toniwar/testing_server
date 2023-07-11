@@ -54,9 +54,19 @@ const images = [
 
 ];
 
+let lastNum;
+let currentNum;
+
 router.get("/meow", (req, res)=>{
-    const num = Math.floor(Math.random()* images.length);
+    const num = getRandom();
+    lastNum = num;
     res.send(images[num]);
 })
+
+function getRandom(){
+    currentNum = Math.floor(Math.random()* images.length);
+    if(currentNum == lastNum) getRandom();
+    else return currentNum;
+}
 
 module.exports = router;
