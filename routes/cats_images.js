@@ -99,9 +99,9 @@ let currentNum;
 
 router.get("/meow", (req, res)=>{
     const img = images[getRandom()];
-    if(!img) res.send(img);
-    else if(img == null) res.send(images[0]);
-    else return res.status(404).send('Image not found');
+    if(!img) {res.send(img);}
+    else if(img == null) {res.send(images[0]);}
+    else {return res.status(404).send('Image not found');}
 })
 
 function getRandom(){
