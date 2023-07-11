@@ -1,5 +1,5 @@
 const exp = require('express');
-const router = exp.Router()
+const router = exp.Router();
 let products = [
     {
         id: 1,
@@ -39,9 +39,7 @@ let products = [
         images:["https://cdn1.ozone.ru/s3/multimedia-a/6083517490.jpg"]
 
     }
-
-
-    
+  
 ];
 
 
@@ -52,12 +50,12 @@ router.get("/products", (req, res)=>{
 
 router.get("/products/:productID", (req, res)=>{
     const id = Number(req.params.productID);
-    const product = products.find(product => product.id === id)
+    const product = products.find(product => product.id === id);
     if(!product){
-        return res.status(404).send('Product not found')
+        return res.status(404).send('Product not found');
     }
-    res.send(product)
+    res.send(product);
 })
 
 
-module.exports = router
+module.exports = router;

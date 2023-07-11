@@ -3,7 +3,7 @@ const app = exp();
 require('dotenv').config();
 const PORT = process.env.PORT;
 const products = require('./routes/products.js');
-let productId = null
+const images = require('./routes/cats_images.js')
 
 app.get("/", (req, res)=>{
     res.send('<h1>Start page</h1>')
