@@ -93,6 +93,10 @@ const images = [
     {
         id:19,
         url:"https://mycrazystars.ru/wp-content/uploads/2022/02/6_maxresdefault.jpg"
+    },
+    {
+        id:20,
+        url: "https://pic.rutubelist.ru/video/d2/ab/d2ab6488a86c54ffa8913a42dc3fc62d.jpg"
     }
 
 
