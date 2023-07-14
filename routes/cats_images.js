@@ -89,6 +89,10 @@ const images = [
     {
         id:18,
         url:"https://fanibani.ru/wp-content/uploads/2021/07/top3000d.jpg"
+    },
+    {
+        id:19,
+        url:"https://mycrazystars.ru/wp-content/uploads/2022/02/6_maxresdefault.jpg"
     }
 
 
